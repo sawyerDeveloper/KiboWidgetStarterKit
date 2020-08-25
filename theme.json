@@ -1,0 +1,29 @@
+{
+    "defaultConfig": {
+      "catalog": "[]"
+    },
+    "displayName": "My Widget",
+    "displayTemplate": "misc/my-widget",
+    "editViewFields": [
+      {
+        "fieldLabel": "Content",
+        "name": "content",
+        "xtype": "mz-input-text"
+      },
+      {
+        "fieldLabel": "Call to Action",
+        "name": "call-to-action",
+        "xtype": "mz-input-text"
+      },
+      {
+        "fieldLabel": "Url",
+        "name": "url",
+        "xtype": "mz-input-text"
+      }
+    ],
+    "icon": "/resources/admin/widgets/07_code.png",
+    "id": "my-widget",
+    "validPageTypes": [
+      "*"
+    ]
+  }

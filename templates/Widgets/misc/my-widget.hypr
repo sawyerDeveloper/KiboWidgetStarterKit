@@ -1,0 +1,5 @@
+<div class="my-widget">
+        <div>{{Model.config.content}}</div>
+        <div onClick="window.open('{{Model.config.url}}');" class="link"> {{Model.config.call-to-action}}</div>
+</div>
+{% require_script "widgets/misc/my-widget" %}
